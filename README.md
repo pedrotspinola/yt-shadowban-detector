@@ -45,13 +45,13 @@ docs/
 
 ## Installation
 
-Download the latest release from the [Releases page](https://github.com/lpsgverrilla/yt-shadowban-detector/releases) and run `yt-shadowban-detector.exe`.
+Download the latest release from the [Releases page](https://github.com/pedrotspinola/yt-shadowban-detector/releases) and run `yt-shadowban-detector.exe`.
 
 ## Building from Source
 
 ```bash
 # Clone repository
-git clone https://github.com/lpsgverrilla/yt-shadowban-detector.git
+git clone https://github.com/pedrotspinola/yt-shadowban-detector.git
 cd yt-shadowban-detector
 
 # Create virtual environment
@@ -140,4 +140,4 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 ## Repository
 
-[https://github.com/lpsgverrilla/yt-shadowban-detector](https://github.com/lpsgverrilla/yt-shadowban-detector)
+[https://github.com/pedrotspinola/yt-shadowban-detector](https://github.com/pedrotspinola/yt-shadowban-detector)
