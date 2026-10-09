@@ -4,6 +4,8 @@
 
 A Windows desktop application that detects whether messages sent by a specific user in a YouTube livestream chat are visible to all viewers or have been shadowbanned.
 
+Built with Claude Code (an AI coding agent) in December 2025.
+
 ## Objective
 
 Verify if YouTube livestream chat messages are publicly visible. Sometimes users see their own messages successfully sent, but other viewers cannot see them due to shadowbanning by moderators or automated systems. This tool acts as an independent third-party observer to confirm message visibility.
@@ -21,27 +23,11 @@ The application connects to YouTube's public livestream chat API (via [pytchat](
 ## Tech Stack
 
 - **Python 3.12** - Primary language
-- **Tkinter** - GUI framework
+- **CustomTkinter** - GUI framework
 - **pytchat 0.5.5** - YouTube live chat API library
 - **Threading** - Asynchronous message buffering
 - **PyInstaller** - Executable bundling
 - **pytest** - Testing framework (105 tests, 100% passing)
-
-## Documentation
-
-Complete technical documentation is available in the `docs/` folder:
-
-```
-docs/
-├── getting-started/    Setup, installation, and quick start guides
-├── architecture/       System design, threading model, and data structures
-├── api-reference/      High-level module documentation
-├── development/        Testing, building, and release workflows
-├── guides/             User flows, troubleshooting, and error handling
-└── reference/          Dependencies, limitations, and future enhancements
-```
-
-**For developers and LLM agents**: See [CLAUDE.md](CLAUDE.md) for a navigation guide to the documentation structure, or start with [docs/README.md](docs/README.md) for a complete index.
 
 ## Installation
 
@@ -117,8 +103,6 @@ gh run list --limit 5
 # Watch the latest run
 gh run watch
 ```
-
-For detailed release documentation, see [docs/development/releasing.md](docs/development/releasing.md).
 
 ## Usage
 
